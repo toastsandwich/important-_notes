@@ -20,3 +20,22 @@ int main(){
 	cout<<"Factorial of "<<i<<" is "<<answer<<endl;
 	return 0;
 }
+
+//code for fibonnanci series , I have done some minute modifications here to print the series .
+#include<iostream>
+using namespace std;
+int fibbonanci(int n){
+	if(n<2){
+		return 1;
+	}
+	return fibbonanci(n-1)+fibbonanci(n-2);
+}
+int main(){
+	system("cls");
+	int n=10;
+	//cout<<"Enter the term of which you want the value in Fibbonanci Series : ";
+	//cin>>n;
+	for(int i = 0;i <=n;i++){
+        cout<<fibbonanci(i)<<" ";
+    }
+}
