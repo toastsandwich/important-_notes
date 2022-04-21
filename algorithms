@@ -1,0 +1,15 @@
+ALGORITHMS : 
+set or sequence
+
+Big O : worst case 
+################################################################
+run times :
+
+linear  : O(n)
+binary  : O(log(n))
+quadratic : O(n^2)
+quasilinear : O(nlog(n))  ------------> Merge Sort is an example
+################################################################
+
+
+
